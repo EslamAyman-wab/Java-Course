@@ -16,7 +16,6 @@ public class Ex_05 {
         System.out.println("Year 2023 is leap year: " + isLeapYear(2023));
 
         // Test case 5: Invalid year
-        System.out.println("Year 10000 is leap year: " + isLeapYear(10000));
     }
 
     public static boolean isLeapYear(int year) {
