@@ -1,4 +1,4 @@
-package B_Coding_Exercise;
+package B_Coding_Exercise.A_Ex;
 
 public class Ex_03 {
     //Accurate MegaBytes Converter For Mastering Integer Math In Java

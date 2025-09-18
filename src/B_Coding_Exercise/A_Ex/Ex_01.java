@@ -1,4 +1,4 @@
-package B_Coding_Exercise;
+package B_Coding_Exercise.A_Ex;
 
 public class Ex_01 {
     //Comprehensive 'Positive, Negative, Or Zero' Assessment In Java
