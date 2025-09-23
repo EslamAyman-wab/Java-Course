@@ -1,4 +1,4 @@
-package B_Coding_Exercise;
+package B_Coding_Exercise.A_Ex;
 
 public class Ex_09 {
     public static void main(String[] args) {

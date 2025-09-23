@@ -1,4 +1,4 @@
-package B_Coding_Exercise;
+package B_Coding_Exercise.A_Ex;
 
 public class Ex_05 {
     //Implementing A Precise Leap Year Calculator To Enhance Conditional Reasoning

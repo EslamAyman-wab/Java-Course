@@ -1,4 +1,4 @@
-package B_Coding_Exercise;
+package B_Coding_Exercise.A_Ex;
 
 public class Ex_07 {
     //Creating An Equal Sum Checker For Strengthening Arithmetic And Comparison Operations
