@@ -1,4 +1,4 @@
-package B_Coding_Exercise;
+package B_Coding_Exercise.A_Ex;
 
 public class Ex_02 {
     //Implementing A Speed Converter To Practice Basic Java Arithmetic And Output

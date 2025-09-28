@@ -1,4 +1,4 @@
-package B_Coding_Exercise;
+package B_Coding_Exercise.A_Ex;
 
 public class Ex_08 {
     //Devising A Teen Number Checker For Mastery Of Conditional Range Checking

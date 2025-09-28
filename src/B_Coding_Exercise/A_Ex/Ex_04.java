@@ -1,4 +1,4 @@
-package B_Coding_Exercise;
+package B_Coding_Exercise.A_Ex;
 
 public class Ex_04 {
     //Developing A 'Barking Dog' Program For Boolean Logic Familiarity

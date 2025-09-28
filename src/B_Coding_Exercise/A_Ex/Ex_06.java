@@ -1,4 +1,4 @@
-package B_Coding_Exercise;
+package B_Coding_Exercise.A_Ex;
 
 public class Ex_06 {
     //Building A Decimal Comparator To Practice Floating-Point Comparisons In Java
