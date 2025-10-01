@@ -14,7 +14,6 @@ public class Ch_04 {
            case 0 -> "sun";
 
 
-
            default -> "INvalid Day";
        };
     }
