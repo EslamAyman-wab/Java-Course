@@ -1,4 +1,4 @@
-package A_Challenges;
+package A_Challenges.A_Ch;
 
 public class Ch_02 {
     public static void main(String[] args) {
