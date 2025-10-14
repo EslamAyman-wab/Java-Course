@@ -24,7 +24,7 @@ public class Ex_27 {
                     System.out.print(" ");
                 }
             }
-            System.out.println(); // ← دي اللي تنقلك للسطر الجديد بعد كل صف
+                        System.out.println(); // This moves to a new line after each row
         }
 
 
