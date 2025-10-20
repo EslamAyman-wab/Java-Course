@@ -11,10 +11,14 @@ public class Customer {
         this.creditLimit = creditLimit;
         this.emailAddress = emailAddress;
     }
-
     public Customer (String name, String emailAddress) {
-        this(name, 000.0, emailAddress);
+        this(name, 0.0, emailAddress);
     }
+
+    public Customer() {
+        System.out.println("This is the emty ");
+    }
+
 
     public String getName() {
         return name;
