@@ -2,11 +2,19 @@ package A_Challenges.B_Ch.Ch_12;
 
 public class bank_account {
 
-    private long accNumbre = 0;
-    private double accBalance = 0;
-    private  String CustomerName = " ";
-    private String email = " ";
-    private String phoneNumber = " ";
+    private String accNumbre;
+    private double accBalance;
+    private  String CustomerName ;
+    private String email ;
+    private String phoneNumber ;
+
+    public bank_account(String accNumbre, double accBalance, String customerName, String email, String phoneNumber) {
+        this.accNumbre = accNumbre;
+        this.accBalance = accBalance;
+        CustomerName = customerName;
+        this.email = email;
+        this.phoneNumber = phoneNumber;
+    }
 
     public void depositFunds (double depositAmount ){
         accBalance+= depositAmount;
@@ -22,11 +30,11 @@ public class bank_account {
         }
     }
 
-    public long getAccNumbre() {
+    public String getAccNumbre() {
         return accNumbre;
     }
 
-    public void setAccNumbre(long accNumbre) {
+    public void setAccNumbre(String accNumbre) {
         this.accNumbre = accNumbre;
     }
 

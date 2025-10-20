@@ -1,4 +1,4 @@
-package A_Challenges.B_Ch;
+package A_Challenges.A_Ch;
 
 import java.util.Scanner;
 
