@@ -17,7 +17,7 @@ public class Main {
         int [] reversarry = getRendomArray();
         System.out.println(Arrays.toString(reversarry));
 
-        reverseArray(reversarry);
+
 
         System.out.println(Arrays.toString(reversarry));
         System.out.println("The sum of the array elements is: " + Arrays.stream(reversarry).sum());
