@@ -10,4 +10,9 @@ public class DEveloper extends test_01 {
     public void setProjectName(String projectName) {
         this.projectName = projectName;
     }
+
+    public DEveloper(String name , String emailAddress , String phone , String department , String address , int yearOfBirth , String projectName){
+        super(name , emailAddress , phone , department , address , yearOfBirth);
+        this.projectName = projectName;
+    }
 }

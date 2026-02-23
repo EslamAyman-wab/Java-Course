@@ -2,12 +2,13 @@ package D_Test_Area.Test_06;
 
 public class test_01 {
 
-    private String name;
-    private String emailAddress;
-    private String phone;
-    private String department;
-    private String address;
-    private int yearOfBirth;
+    protected String name;
+    protected String emailAddress;
+    protected String phone;
+    protected String department;
+    protected String address;
+    protected int yearOfBirth;
+
 
     public test_01() {
         System.out.println("No parameters constructor ");
