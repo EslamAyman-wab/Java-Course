@@ -1,0 +1,14 @@
+package B_Exercises.A_CodingBat.B_Arrays;
+
+public class arr_09 {
+    public static void main(String[] args) {
+
+    }
+    public int[] makeMiddle(int[] nums) {
+
+        int [] mid = {nums[(nums.length/2)-1],nums[nums.length/2]};
+
+        return mid;
+
+    }
+}

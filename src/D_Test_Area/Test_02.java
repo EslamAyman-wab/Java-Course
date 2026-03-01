@@ -24,7 +24,7 @@ public class Test_02 {
 //        1. With Strings (Text)
 //         It checks if a piece of text exists inside another piece of text.
 //
-//        1 String name = "Java Course";
+//        1 String name = "Java A_Course";
 //        2 System.out.println(name.contains("Java")); // Result: true
 //        3 System.out.println(name.contains("Python")); // Result: false
 //
