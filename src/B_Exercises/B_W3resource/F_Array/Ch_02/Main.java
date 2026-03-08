@@ -16,7 +16,7 @@ public class Main {
         arr[7] = 8;
         arr[8] = 9;
         arr[9] = 10;
-        System.out.println("the arry numbers is " + Arrays.toString(arr));
+        System.out.println("the arry numbers is " + Arrays.toString(arr)  );
         for (int i =0; i < arr.length; i++){
                 sum = sum + arr[i];
         }
