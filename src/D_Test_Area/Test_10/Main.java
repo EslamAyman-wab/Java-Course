@@ -1,5 +1,8 @@
 package D_Test_Area.Test_10;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Main {
     public static void main(String[] args) {
 //        int [][] arr ={
@@ -14,8 +17,15 @@ public class Main {
 //            }
 //            System.out.println();
 //        }
-        String s1 = "ABCD";
-        String s2 = "ABCd";
-        System.out.println(s1.compareTo(s2));
+//        ArrayList  x = new ArrayList<>();
+//        List x2 = new ArrayList<>();
+//        String s1 = "ABCD";
+//        String s2 = "ABCd";
+//        System.out.println(s1.compareTo(s2));
+        ArrayList <Integer> list = new ArrayList<>();
+        list.add(1);
+        list.add(2);
+        list.add(3);
+        System.out.println(list);
     }
 }
