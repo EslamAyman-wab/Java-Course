@@ -9,10 +9,10 @@ public class arr_19 {
         int size = Math.min(2, nums.length);
         int[] result = new int[size];
 
-        if ( nums.length >= 2) {
-            return result = new int[] {nums[0], nums[1]};
-        } else {
-            return result;
+        for (int i = 0; i < size; i++) {
+            result[i] = nums[i];
         }
+
+        return result;
     }
 }
