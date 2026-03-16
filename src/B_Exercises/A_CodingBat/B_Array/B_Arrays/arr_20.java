@@ -1,4 +1,4 @@
-package B_Exercises.A_CodingBat.C_Arrays;
+package B_Exercises.A_CodingBat.B_Array.B_Arrays;
 
 public class arr_20 {
     public static void main(String[] args) {

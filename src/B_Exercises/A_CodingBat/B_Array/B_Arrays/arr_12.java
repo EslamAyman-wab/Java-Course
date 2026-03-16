@@ -1,4 +1,4 @@
-package B_Exercises.A_CodingBat.C_Arrays;
+package B_Exercises.A_CodingBat.B_Array.B_Arrays;
 
 
 import java.util.Arrays;
