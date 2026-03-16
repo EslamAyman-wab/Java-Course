@@ -1,5 +1,9 @@
 package A_Course.A_Challenges.B_Ch.Ch_18;
 
+/**
+ * **Car** is the BASE class (Superclass).
+ * It defines the basic blueprint for all types of cars.
+ */
 public class Car {
 
     private String description;
@@ -8,17 +12,19 @@ public class Car {
         this.description = description;
     }
 
+    /**
+     * Polymorphism in action: This method can be overridden by subclasses.
+     */
     public void startEngine(){
-        System.out.println("The Engine is Started ");
-
+        System.out.println("Car: The Engine is Started ");
     }
 
     public void drive (){
-        System.out.println("You are Driving");
+        System.out.println("Car: You are Driving");
     }
 
     protected void runEngine(){
-        System.out.println("The Engine is runing ");
+        System.out.println("Car: The Engine is runing ");
     }
 
     public String getDescription() {
@@ -26,6 +32,9 @@ public class Car {
     }
 }
 
+/**
+ * **GasPoweredCar** is a subclass that provides its own specific behavior.
+ */
 class GasPoweredCar extends Car{
 
     private double avgKmPerLitre;
@@ -39,17 +48,17 @@ class GasPoweredCar extends Car{
 
     @Override
     public void startEngine() {
-        System.out.println("The engin runing with Gas");
+        System.out.println("Gas Car: Starting with the sound of internal combustion!");
     }
 
     @Override
     public void drive() {
-        System.out.println("The car is gas");
+        System.out.println("Gas Car: Driving using fuel from the tank.");
     }
 
     @Override
     protected void runEngine() {
-        System.out.println("The engine is runing with gas");
+        System.out.println("Gas Car: Engine is burning fuel.");
     }
 
     public double getAvgKmPerLitre() {
@@ -61,6 +70,9 @@ class GasPoweredCar extends Car{
     }
 }
 
+/**
+ * **ElectricCar** is another subclass with different behavior.
+ */
 class ElectricCar extends Car{
 
     private double avgKmPerCharge;
@@ -73,17 +85,17 @@ class ElectricCar extends Car{
     }
     @Override
     public void startEngine() {
-        System.out.println("The engin runing with batter");
+        System.out.println("Electric Car: Starting silently... just a hum!");
     }
 
     @Override
     public void drive() {
-        System.out.println("The car is electric");
+        System.out.println("Electric Car: Driving using electric power.");
     }
 
     @Override
     protected void runEngine() {
-        System.out.println("The engine is runing with eletric");
+        System.out.println("Electric Car: Motor is spinning using battery energy.");
     }
 
     public double getAvgKmPerCharge() {
@@ -95,6 +107,9 @@ class ElectricCar extends Car{
     }
 }
 
+/**
+ * **HybridCar** combines behaviors from both gas and electric.
+ */
 class HybridCar extends Car{
 
     private double avgKmPerLitre;
@@ -109,17 +124,17 @@ class HybridCar extends Car{
     }
     @Override
     public void startEngine() {
-        System.out.println("The engin runing with hybrid");
+        System.out.println("Hybrid Car: Starting with a mix of gas and battery!");
     }
 
     @Override
     public void drive() {
-        System.out.println("The car is hybrid");
+        System.out.println("Hybrid Car: Driving efficiently on both systems.");
     }
 
     @Override
     protected void runEngine() {
-        System.out.println("The engine is runing with hybird");
+        System.out.println("Hybrid Car: System is managing both engine and motor.");
     }
 
     public double getAvgKmPerLitre() {
