@@ -17,39 +17,54 @@ public class arr_22 {
         // Expected output: []
         System.out.println("Test 3: " + java.util.Arrays.toString(obj.front11(new int[]{}, new int[]{})));
     }
+    /**
+     * Goal: Given two integer arrays 'a' and 'b', return a new array containing 
+     * the first element from each array that is not empty.
+     */
     public int[] front11(int[] a, int[] b) {
-        // Create a counter to track how many elements will be in our final array
+        // STEP 1: Determine the size of the result array.
+        // Since we only take the first element from each array IF they exist,
+        // the final array size can only be 0, 1, or 2.
         int count = 0;
         
-        // If the first array 'a' has at least one element, we will take one, so increment count
-        if(a.length > 0) count++;
+        // We check if array 'a' has at least one element.
+        // If it does, we'll take one element from it later.
+        if(a.length > 0) {
+            count++;
+        }
         
-        // If the second array 'b' has at least one element, we will take one, so increment count
-        if(b.length > 0) count++;
+        // We do the same check for array 'b'.
+        // This ensures our result array is exactly the right size (no extra zeros).
+        if(b.length > 0) {
+            count++;
+        }
         
-        // Initialize the result array with the size we just calculated (0, 1, or 2)
+        // STEP 2: Create the result array.
+        // We use the 'count' we just calculated to initialize the array.
         int[] result = new int[count];
         
-        // This index 'i' will help us place elements into the result array one by one
+        // STEP 3: Fill the result array.
+        // We use 'i' as a pointer to know which slot in 'result' to fill next.
         int i = 0;
         
-        // Check if array 'a' is not empty
+        // If 'a' has elements, we grab the very first one (index 0).
         if(a.length > 0) {
-            // Take the first element of 'a' and put it in the first available slot in result
             result[i] = a[0];
-            // Move the index to the next slot in result
+            // After adding an element, we MUST increment 'i' 
+            // so the next element (from 'b') doesn't overwrite it.
             i++;
         }
         
-        // Check if array 'b' is not empty
+        // If 'b' has elements, we grab its first one (index 0).
         if(b.length > 0){
-            // Take the first element of 'b' and put it in the current slot in result
+            // This will go into result[0] if 'a' was empty, 
+            // OR into result[1] if 'a' already added an element.
             result[i] = b[0];
-            // No need to increment 'i' here as it's the last possible element
+            // We increment 'i' just to be safe, though it's the last step.
             i++;
         }
         
-        // Return the newly created array containing the first elements
+        // Finally, return the completed array.
          return result;
     }
 }
