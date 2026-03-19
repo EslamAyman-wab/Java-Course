@@ -42,7 +42,7 @@ public class arr_26 {
         // 4. Copy elements from 'a' into 'result' starting at index 0
         System.arraycopy(a, 0, result, 0, fromA);
         
-        // 5. Copy elements from 'b' into 'result' starting after the 'a' elements
+        // 5. Copy elements from 'b' into 'result' starting after the 'a' elemen ts
         System.arraycopy(b, 0, result, fromA, fromB);
         
         return result;
