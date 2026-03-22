@@ -1,4 +1,4 @@
-package B_Exercises.A_CodingBat.A_Warmup.warmup_01;
+package B_Exercises.A_CodingBat.A_Warmup.warmup_01.A_warmup;
 
 public class war_06 {
     public static void main(String[] args) {
