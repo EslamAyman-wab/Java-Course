@@ -18,7 +18,7 @@ public class Test_03 {
 
     public static void main(String[] args) {
 
-        ArrayList<Integer> list = new ArrayList();
+        ArrayList<Integer> list = new ArrayList<>();
         Scanner in = new Scanner(System.in);
 
         while (true) {
