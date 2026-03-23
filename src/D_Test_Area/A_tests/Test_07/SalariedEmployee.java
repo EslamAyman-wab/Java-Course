@@ -1,4 +1,4 @@
-package D_Test_Area.Test_07;
+package D_Test_Area.A_tests.Test_07;
 
 public class SalariedEmployee  extends Employee{
     private float bouns;

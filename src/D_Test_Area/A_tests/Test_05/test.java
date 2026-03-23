@@ -1,4 +1,4 @@
-package D_Test_Area.Test_05;
+package D_Test_Area.A_tests.Test_05;
 
 public class test {
 //    private double radius;

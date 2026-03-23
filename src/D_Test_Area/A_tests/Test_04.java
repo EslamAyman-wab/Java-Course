@@ -1,4 +1,4 @@
-package D_Test_Area;
+package D_Test_Area.A_tests;
 
 public class Test_04 {
     public static void main(String[] args) {

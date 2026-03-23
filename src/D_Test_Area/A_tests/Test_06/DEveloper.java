@@ -1,4 +1,4 @@
-package D_Test_Area.Test_06;
+package D_Test_Area.A_tests.Test_06;
 
 public class DEveloper extends test_01 {
     String projectName;

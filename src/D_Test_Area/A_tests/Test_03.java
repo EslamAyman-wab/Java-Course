@@ -1,4 +1,4 @@
-package D_Test_Area;
+package D_Test_Area.A_tests;
 
 import java.util.ArrayList;
 import java.util.Scanner;

@@ -1,7 +1,6 @@
-package D_Test_Area.Test_10;
+package D_Test_Area.A_tests.Test_10;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class Main {
     public static void main(String[] args) {

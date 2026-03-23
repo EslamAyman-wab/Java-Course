@@ -1,4 +1,4 @@
-package D_Test_Area.Test_08;
+package D_Test_Area.A_tests.Test_08;
 
 public class Department {
     private int deptNo;
