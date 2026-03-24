@@ -5,6 +5,7 @@ public class CarV1 implements Movable, SelfDrivable {
     private int x, y;
     int numberOfPassengers;
 
+    public CarV1(){}
     public CarV1(int x, int y) {
         this.x = x;
         this.y = y;
