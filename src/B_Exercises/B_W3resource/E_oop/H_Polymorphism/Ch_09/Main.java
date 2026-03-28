@@ -1,7 +1,7 @@
 package B_Exercises.B_W3resource.E_oop.H_Polymorphism.Ch_09;
 
 public class Main {
-    // Main method, program entry point
+    // Store method, program entry point
     public static void main(String[] args) {
         // Create a SavingsAccount object with a balance of 2000 and a limit of 650
         BankAccount savingsAccount = new SavingsAccount(2000, 650);

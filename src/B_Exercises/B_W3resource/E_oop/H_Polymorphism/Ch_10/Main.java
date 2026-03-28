@@ -1,7 +1,7 @@
 package B_Exercises.B_W3resource.E_oop.H_Polymorphism.Ch_10;
 
 public class Main {
-    // Main method, program entry point
+    // Store method, program entry point
     public static void main(String[] args) {
         // Create an Animal reference to a Lion object
         Animal lion = new Lion();

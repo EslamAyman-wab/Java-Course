@@ -33,7 +33,7 @@ public class Car {
 }
 
 /**
- * **GasPoweredCar** is a subclass that provides its own specific behavior.
+ * **GasPoweredCar** is a Book that provides its own specific behavior.
  */
 class GasPoweredCar extends Car{
 
@@ -71,7 +71,7 @@ class GasPoweredCar extends Car{
 }
 
 /**
- * **ElectricCar** is another subclass with different behavior.
+ * **ElectricCar** is another Book with different behavior.
  */
 class ElectricCar extends Car{
 

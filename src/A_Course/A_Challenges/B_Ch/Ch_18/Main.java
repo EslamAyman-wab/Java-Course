@@ -1,7 +1,7 @@
 package A_Course.A_Challenges.B_Ch.Ch_18;
 
 /**
- * The Main class shows **Polymorphism** in action.
+ * The Store class shows **Polymorphism** in action.
  * Notice how we use a variable of type 'Car' (the parent) to hold 
  * different types of car objects (the children).
  */

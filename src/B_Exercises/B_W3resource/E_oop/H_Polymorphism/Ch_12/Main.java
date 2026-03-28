@@ -1,7 +1,7 @@
 package B_Exercises.B_W3resource.E_oop.H_Polymorphism.Ch_12;
 
 public class Main {
-    // Main method, entry point of the application
+    // Store method, entry point of the application
     public static void main(String[] args) {
         // Create a Shape reference pointing to a Circle object with radius 7.0
         Shape circle = new Circle(7.0);

@@ -11,7 +11,7 @@ public class Main {
 //        d1.setEmailAddress("eslam@gmail.com");
 //        d1.setPhone("123456789");
 //        d1.setDepartment("IT");
-//        d1.setAddress("123 Main St");
+//        d1.setAddress("123 Store St");
 //        d1.setYearOfBirth(1990);
 //        d1.setProjectName("Project 1");
 //
