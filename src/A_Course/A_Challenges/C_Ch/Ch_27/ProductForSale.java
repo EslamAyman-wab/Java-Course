@@ -12,6 +12,18 @@ public abstract class ProductForSale {
         this.description = description;
     }
 
+    public String getType() {
+        return type;
+    }
+
+    public double getPrice() {
+        return price;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
     public double getSalesPrice(int quantity) {
 
         return (price * quantity);
@@ -32,6 +44,10 @@ class OrderItem {
     public OrderItem(ProductForSale product, int quantity) {
         this.product = product;
         this.quantity = quantity;
+    }
+
+    public void printOrderItem() {
+        product.printPricedItem(quantity);
     }
 }
 
