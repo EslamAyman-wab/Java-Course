@@ -1,0 +1,7 @@
+package A_Course.B_Coding_Exercise.E_Ex.Ex_47;
+
+public class Main {
+    public static void main(String[] args) {
+
+    }
+}
