@@ -5,7 +5,7 @@ public class war_27 {
 
     }
     public String frontBack(String str){
-        if (str.length() == 1){
+        if (str.length() <= 1){
             return str;
         }
         char first = str.charAt(0);
