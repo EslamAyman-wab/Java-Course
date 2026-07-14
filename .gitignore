@@ -1,4 +1,6 @@
 ### IntelliJ IDEA ###
+.idea/
+*.iml
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
@@ -14,6 +16,12 @@ out/
 bin/
 !**/src/main/**/bin/
 !**/src/test/**/bin/
+
+### Java ###
+*.class
+
+### Local scratch files ###
+sources.txt
 
 ### NetBeans ###
 /nbproject/private/

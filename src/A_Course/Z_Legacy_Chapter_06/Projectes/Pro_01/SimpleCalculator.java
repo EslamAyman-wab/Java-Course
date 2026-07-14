@@ -1,4 +1,4 @@
-package Projectes.Pro_01;
+package A_Course.Z_Legacy_Chapter_06.Projectes.Pro_01;
 
 public class SimpleCalculator {
 
