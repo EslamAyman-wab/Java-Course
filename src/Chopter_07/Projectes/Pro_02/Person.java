@@ -1,12 +1,10 @@
 package Chopter_07.Projectes.Pro_02;
 
-import com.sun.source.doctree.SeeTree;
-
 public class Person {
 
     private String firstName;
     private String lastName;
-    private  int age ;
+    private int age;
 
     public String getFirstName() {
         return firstName;
@@ -28,26 +26,27 @@ public class Person {
         return age;
     }
 
-    public int setAge(int age) {
-        if (age <=0 || age >=100){
-            return 0;
+    public void setAge(int age) {
+        if (age < 0 || age > 100) {
+            this.age = 0;
+        } else {
+            this.age = age;
         }
-        return this.age = age;
     }
 
-    public String getFullName (){
-        if(firstName.isEmpty()){
-            return  lastName;
+    public String getFullName() {
+        if (firstName.isEmpty() && lastName.isEmpty()) {
+            return "";
         } else if (lastName.isEmpty()) {
-            return firstName ;
-        } else if (firstName.isEmpty() && lastName.isEmpty()) {
-            return " ";
+            return firstName;
+        } else if (firstName.isEmpty()) {
+            return lastName;
         }
-        return firstName +" " +  lastName;
+        return firstName + " " + lastName;
     }
 
-    public boolean isTeen (){
-        if (age > 12 && age <20){
+    public boolean isTeen() {
+        if (age > 12 && age < 20) {
             return true;
         }
         return false;

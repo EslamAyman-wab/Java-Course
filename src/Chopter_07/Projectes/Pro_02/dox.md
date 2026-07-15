@@ -1,50 +1,42 @@
-                         Coding Exercise 31: Person Class and Age Validation
---------------------------------------------------------------------------------------------------------
+# Coding Exercise 31: Person Class and Age Validation
 
-Person Class and Age Validation
+---
 
-Write a class with the name Person.
+## Person Class and Age Validation
 
-The class needs `three fields` (instance variables) with the names `firstName`, `lastName` of type `String` and `age` of type `int`.
+Write a class with the name `Person`.
 
-Write the following methods (instance methods):
+The class needs **three fields** (instance variables) with the names `firstName`, `lastName` of type `String` and `age` of type `int`.
 
-Method named `getFirstName` without any parameters, it needs to return the value of the firstName field.- [x]
+### Write the following methods (instance methods):
 
-Method named `getLastName` without any parameters, it needs to return the value of the lastName field.  - [x]
+- [x] Method named `getFirstName` without any parameters, it needs to return the value of the `firstName` field.
+- [x] Method named `getLastName` without any parameters, it needs to return the value of the `lastName` field.
+- [x] Method named `getAge` without any parameters, it needs to return the value of the `age` field.
+- [x] Method named `setFirstName` with one parameter of type `String`, it needs to set the value of the `firstName` field.
+- [x] Method named `setLastName` with one parameter of type `String`, it needs to set the value of the `lastName` field.
+- [x] Method named `setAge` with one parameter of type `int`, it needs to set the value of the `age` field.
+- [ ] If the parameter is less than 0 or greater than 100, it needs to set the `age` field value to 0.
+- [ ] Method named `isTeen` without any parameters, it needs to return `true` if the value of the `age` field is greater than 12 and less than 20, otherwise, return `false`.
+- [ ] Method named `getFullName` without any parameters, it needs to **return the full name of the person**.
 
-Method named `getAge` without any parameters, it needs to return the value of the age field.    - [x]
+### `getFullName` rules:
 
-Method named `setFirstName` with one parameter of type String, it needs to set the value of the firstName field. - [x]
+- In case both `firstName` and `lastName` fields are empty Strings, return an empty String.
+- In case `lastName` is an empty String, return `firstName`.
+- In case `firstName` is an empty String, return `lastName`.
 
-Method named `setLastName` with one parameter of type String, it needs to set the value of the lastName field. - [x]
+To check if a String is empty, use the method `isEmpty` from the `String` class.
 
-Method named `setAge` with one parameter of type int, it needs to set the value of the age field. - [x]
+> For example, `firstName.isEmpty()` returns `true` if the String is empty — in other words, when the String does not contain any characters.
 
-If the parameter is less than 0 or greater than 100, it needs to set the age field value to 0.   - [ ]
+---
 
-Method named `isTeen` without any parameters,
-it needs to return true if the value of the age field is greater than 12 and less than 20, otherwise, return false. - [ ]
+## Test Example
 
-Method named `getFullName` without any parameters, it needs to `return the full name of the person`.  - [ ]
+### Test Code
 
-In case both firstName and lastName fields are empty, Strings return an empty String.
-
-In case lastName is an empty String, return firstName.
-
-In case firstName is an empty String, return lastName.
-
-To check if s String is empty, use the method isEmpty from the String class.
-
-
-For example, firstName.isEmpty() returns true if the String is empty or in other words, when the String does not contain any characters.
-
-
-
-TEST EXAMPLE
-
-TEST CODE:
-
+```java
 Person person = new Person();
 person.setFirstName("");   // firstName is set to empty string
 person.setLastName("");    // lastName is set to empty string
@@ -57,17 +49,24 @@ System.out.println("fullName= " + person.getFullName());
 System.out.println("teen= " + person.isTeen());
 person.setLastName("Smith");    // lastName is set to Smith
 System.out.println("fullName= " + person.getFullName());
-OUTPUT
+```
 
+### Output
+
+```
 fullName=
 teen= false
 fullName= John
 teen= true
 fullName= John Smith
+```
 
+---
 
-NOTE: All ​methods should be defined as `public` NOT `public static`.
+## Notes
 
-NOTE: In total, you have to write `8 methods`.
+> **NOTE:** All methods should be defined as `public`, **NOT** `public static`.
 
-NOTE: Do not add the main method to the solution code.
+> **NOTE:** In total, you have to write **8 methods**.
+
+> **NOTE:** Do not add the `main` method to the solution code.
